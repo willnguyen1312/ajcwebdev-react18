@@ -1,15 +1,15 @@
 # Example project for - [a first look at react 18 with vite and netlify](https://dev.to/ajcwebdev/a-first-look-at-react-18-with-vite-and-netlify-5411)
 
 When it’s released, [React 18](https://github.com/reactwg/react-18/discussions/4) will include out-of-the-box improvements including:
-* [Automatic batching](https://github.com/reactwg/react-18/discussions/21))
-* New APIs (like [`startTransition`](https://github.com/reactwg/react-18/discussions/41))
+* [Automatic batching](https://github.com/reactwg/react-18/discussions/21)
+* New APIs like [`startTransition`](https://github.com/reactwg/react-18/discussions/41)
 * A [new streaming server renderer](https://github.com/reactwg/react-18/discussions/37) with built-in support for `React.lazy`
 
 The React team has also taken a new step by creating the [React 18 Working Group](https://github.com/reactwg/react-18) to provide feedback, ask questions, and collaborate on the release. The Working Group is hosted on [GitHub Discussions](https://github.com/reactwg/react-18/discussions) and is available for the public to read.
 
 ## React 18 Working Group
 
-Members of the working group can leave feedback, ask questions, and share ideas. The core team will also use the discussions repo to share our research findings. As the stable release gets closer, any important information will also be posted on this blog.
+Members of the working group can leave feedback, ask questions, and share ideas. The core team will also use the discussions repo to share their research findings. As the stable release gets closer, any important information will also be posted on the [React blog](https://reactjs.org/blog/all.html/).
 
 Because an initial surge of interest in the Working Group is expected, only invited members will be allowed to create or comment on threads. However, the threads are fully visible to the public, so everyone has access to the same information. The team believes this is a good compromise between creating a productive environment for working group members, while maintaining transparency with the wider community.
 
@@ -97,8 +97,10 @@ function App() {
       <header className="App-header">
         <img
           src={logo}
-          className="App-logo" alt="logo"
+          className="App-logo"
+          alt="logo"
         />
+
         <p>
           React 18 Deployed on Netlify with Vite
         </p>
@@ -159,7 +161,7 @@ dist/assets/index.0673ce28.css     0.76kb / brotli: 0.40kb
 dist/assets/vendor.9aeda92c.js     134.00kb / brotli: 37.26kb
 
 Done in 4.86s.
-​
+
 (build.command completed in 5.1s)
 ```
 
