@@ -84,7 +84,8 @@ Use `esbuild.jsxInject` to automatically inject JSX helper imports for every fil
 // vite.config.js
 
 export default defineConfig({
-  plugins: [reactRefresh()],
+  plugins: [ reactRefresh() ],
+  
   esbuild: {
     jsxInject: `import React from 'react'`
   }
@@ -100,9 +101,9 @@ import App from './App'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root')
-);
+)
 
-root.render(<App />);
+root.render(<App />)
 ```
 
 ### App.jsx
