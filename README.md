@@ -13,7 +13,7 @@
 ### Deploy to Netlify
 * Create `netlify.toml`
 * Add `publish` directory and `build` command
-* Create a blank GitHub repository at [github.new](https://github.com/new/).
+* Create a blank GitHub repository at [repo.new](https://repo.new/).
 * Connect your GitHub repository to Netlify
 * Build commands are included from `netlify.toml`
 * Set a custom domain
@@ -145,7 +145,7 @@ touch netlify.toml
   command = "yarn build"
 ```
 
-Create a blank GitHub repository at [github.new](https://github.com/new/).
+Create a blank GitHub repository at [repo.new](https://repo.new/).
 
 ```bash
 git init
